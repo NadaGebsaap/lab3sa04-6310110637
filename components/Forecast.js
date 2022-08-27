@@ -6,6 +6,7 @@ export default function Forecast(props) {
         <Text>{props.main}</Text>
         <Text>{props.description}</Text>
         <Text>{props.temp}</Text>
+        <Text>description</Text>
         <Text>°C</Text>
     </View>
     );
